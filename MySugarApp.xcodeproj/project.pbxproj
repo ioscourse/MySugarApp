@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1256469916F8176A00FFBF83 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1256469816F8176A00FFBF83 /* UIKit.framework */; };
+		1256469B16F8176A00FFBF83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1256469A16F8176A00FFBF83 /* Foundation.framework */; };
+		1256469D16F8176A00FFBF83 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1256469C16F8176A00FFBF83 /* CoreGraphics.framework */; };
+		125646A316F8176A00FFBF83 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 125646A116F8176A00FFBF83 /* InfoPlist.strings */; };
+		125646A516F8176A00FFBF83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 125646A416F8176A00FFBF83 /* main.m */; };
+		125646A916F8176A00FFBF83 /* MySugarAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 125646A816F8176A00FFBF83 /* MySugarAppAppDelegate.m */; };
+		125646AB16F8176A00FFBF83 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 125646AA16F8176A00FFBF83 /* Default.png */; };
+		125646AD16F8176A00FFBF83 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 125646AC16F8176A00FFBF83 /* Default@2x.png */; };
+		125646AF16F8176A00FFBF83 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 125646AE16F8176A00FFBF83 /* Default-568h@2x.png */; };
+		125646B216F8176A00FFBF83 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 125646B016F8176A00FFBF83 /* MainStoryboard.storyboard */; };
+		125646B516F8176A00FFBF83 /* MySugarAppMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 125646B416F8176A00FFBF83 /* MySugarAppMainViewController.m */; };
+		125646B816F8176A00FFBF83 /* MySugarAppFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 125646B716F8176A00FFBF83 /* MySugarAppFlipsideViewController.m */; };
+		125646C916F817B800FFBF83 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 125646C016F817B800FFBF83 /* FMDatabase.m */; };
+		125646CA16F817B800FFBF83 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 125646C216F817B800FFBF83 /* FMDatabaseAdditions.m */; };
+		125646CB16F817B800FFBF83 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 125646C416F817B800FFBF83 /* FMDatabasePool.m */; };
+		125646CC16F817B800FFBF83 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 125646C616F817B800FFBF83 /* FMDatabaseQueue.m */; };
+		125646CD16F817B800FFBF83 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 125646C816F817B800FFBF83 /* FMResultSet.m */; };
+		125646CF16F817CE00FFBF83 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 125646CE16F817CE00FFBF83 /* libsqlite3.0.dylib */; };
+		125646D116F81C4E00FFBF83 /* MySugar.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 125646D016F81C4E00FFBF83 /* MySugar.sqlite */; };
+		125646D516F81F0000FFBF83 /* MyDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 125646D416F81F0000FFBF83 /* MyDataViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1256469516F8176A00FFBF83 /* MySugarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySugarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1256469816F8176A00FFBF83 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1256469A16F8176A00FFBF83 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1256469C16F8176A00FFBF83 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		125646A016F8176A00FFBF83 /* MySugarApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MySugarApp-Info.plist"; sourceTree = "<group>"; };
+		125646A216F8176A00FFBF83 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		125646A416F8176A00FFBF83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		125646A616F8176A00FFBF83 /* MySugarApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MySugarApp-Prefix.pch"; sourceTree = "<group>"; };
+		125646A716F8176A00FFBF83 /* MySugarAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySugarAppAppDelegate.h; sourceTree = "<group>"; };
+		125646A816F8176A00FFBF83 /* MySugarAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySugarAppAppDelegate.m; sourceTree = "<group>"; };
+		125646AA16F8176A00FFBF83 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		125646AC16F8176A00FFBF83 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		125646AE16F8176A00FFBF83 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		125646B116F8176A00FFBF83 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		125646B316F8176A00FFBF83 /* MySugarAppMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySugarAppMainViewController.h; sourceTree = "<group>"; };
+		125646B416F8176A00FFBF83 /* MySugarAppMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySugarAppMainViewController.m; sourceTree = "<group>"; };
+		125646B616F8176A00FFBF83 /* MySugarAppFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySugarAppFlipsideViewController.h; sourceTree = "<group>"; };
+		125646B716F8176A00FFBF83 /* MySugarAppFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySugarAppFlipsideViewController.m; sourceTree = "<group>"; };
+		125646BF16F817B800FFBF83 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		125646C016F817B800FFBF83 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		125646C116F817B800FFBF83 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		125646C216F817B800FFBF83 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		125646C316F817B800FFBF83 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		125646C416F817B800FFBF83 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		125646C516F817B800FFBF83 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		125646C616F817B800FFBF83 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		125646C716F817B800FFBF83 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		125646C816F817B800FFBF83 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		125646CE16F817CE00FFBF83 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		125646D016F81C4E00FFBF83 /* MySugar.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = MySugar.sqlite; sourceTree = "<group>"; };
+		125646D316F81F0000FFBF83 /* MyDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDataViewController.h; sourceTree = "<group>"; };
+		125646D416F81F0000FFBF83 /* MyDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDataViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1256469216F8176A00FFBF83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				125646CF16F817CE00FFBF83 /* libsqlite3.0.dylib in Frameworks */,
+				1256469916F8176A00FFBF83 /* UIKit.framework in Frameworks */,
+				1256469B16F8176A00FFBF83 /* Foundation.framework in Frameworks */,
+				1256469D16F8176A00FFBF83 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1256468C16F8176A00FFBF83 = {
+			isa = PBXGroup;
+			children = (
+				125646D216F81ED700FFBF83 /* MyData */,
+				125646CE16F817CE00FFBF83 /* libsqlite3.0.dylib */,
+				125646BE16F8177D00FFBF83 /* Database */,
+				1256469E16F8176A00FFBF83 /* MySugarApp */,
+				1256469716F8176A00FFBF83 /* Frameworks */,
+				1256469616F8176A00FFBF83 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1256469616F8176A00FFBF83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1256469516F8176A00FFBF83 /* MySugarApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1256469716F8176A00FFBF83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1256469816F8176A00FFBF83 /* UIKit.framework */,
+				1256469A16F8176A00FFBF83 /* Foundation.framework */,
+				1256469C16F8176A00FFBF83 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1256469E16F8176A00FFBF83 /* MySugarApp */ = {
+			isa = PBXGroup;
+			children = (
+				125646A716F8176A00FFBF83 /* MySugarAppAppDelegate.h */,
+				125646A816F8176A00FFBF83 /* MySugarAppAppDelegate.m */,
+				125646B016F8176A00FFBF83 /* MainStoryboard.storyboard */,
+				125646B316F8176A00FFBF83 /* MySugarAppMainViewController.h */,
+				125646B416F8176A00FFBF83 /* MySugarAppMainViewController.m */,
+				125646B616F8176A00FFBF83 /* MySugarAppFlipsideViewController.h */,
+				125646B716F8176A00FFBF83 /* MySugarAppFlipsideViewController.m */,
+				1256469F16F8176A00FFBF83 /* Supporting Files */,
+			);
+			path = MySugarApp;
+			sourceTree = "<group>";
+		};
+		1256469F16F8176A00FFBF83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				125646D016F81C4E00FFBF83 /* MySugar.sqlite */,
+				125646A016F8176A00FFBF83 /* MySugarApp-Info.plist */,
+				125646A116F8176A00FFBF83 /* InfoPlist.strings */,
+				125646A416F8176A00FFBF83 /* main.m */,
+				125646A616F8176A00FFBF83 /* MySugarApp-Prefix.pch */,
+				125646AA16F8176A00FFBF83 /* Default.png */,
+				125646AC16F8176A00FFBF83 /* Default@2x.png */,
+				125646AE16F8176A00FFBF83 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		125646BE16F8177D00FFBF83 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				125646BF16F817B800FFBF83 /* FMDatabase.h */,
+				125646C016F817B800FFBF83 /* FMDatabase.m */,
+				125646C116F817B800FFBF83 /* FMDatabaseAdditions.h */,
+				125646C216F817B800FFBF83 /* FMDatabaseAdditions.m */,
+				125646C316F817B800FFBF83 /* FMDatabasePool.h */,
+				125646C416F817B800FFBF83 /* FMDatabasePool.m */,
+				125646C516F817B800FFBF83 /* FMDatabaseQueue.h */,
+				125646C616F817B800FFBF83 /* FMDatabaseQueue.m */,
+				125646C716F817B800FFBF83 /* FMResultSet.h */,
+				125646C816F817B800FFBF83 /* FMResultSet.m */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		125646D216F81ED700FFBF83 /* MyData */ = {
+			isa = PBXGroup;
+			children = (
+				125646D316F81F0000FFBF83 /* MyDataViewController.h */,
+				125646D416F81F0000FFBF83 /* MyDataViewController.m */,
+			);
+			name = MyData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1256469416F8176A00FFBF83 /* MySugarApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 125646BB16F8176A00FFBF83 /* Build configuration list for PBXNativeTarget "MySugarApp" */;
+			buildPhases = (
+				1256469116F8176A00FFBF83 /* Sources */,
+				1256469216F8176A00FFBF83 /* Frameworks */,
+				1256469316F8176A00FFBF83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySugarApp;
+			productName = MySugarApp;
+			productReference = 1256469516F8176A00FFBF83 /* MySugarApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1256468D16F8176A00FFBF83 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MySugarApp;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "RVC Student";
+			};
+			buildConfigurationList = 1256469016F8176A00FFBF83 /* Build configuration list for PBXProject "MySugarApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1256468C16F8176A00FFBF83;
+			productRefGroup = 1256469616F8176A00FFBF83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1256469416F8176A00FFBF83 /* MySugarApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1256469316F8176A00FFBF83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				125646A316F8176A00FFBF83 /* InfoPlist.strings in Resources */,
+				125646AB16F8176A00FFBF83 /* Default.png in Resources */,
+				125646AD16F8176A00FFBF83 /* Default@2x.png in Resources */,
+				125646AF16F8176A00FFBF83 /* Default-568h@2x.png in Resources */,
+				125646B216F8176A00FFBF83 /* MainStoryboard.storyboard in Resources */,
+				125646D116F81C4E00FFBF83 /* MySugar.sqlite in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1256469116F8176A00FFBF83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				125646A516F8176A00FFBF83 /* main.m in Sources */,
+				125646A916F8176A00FFBF83 /* MySugarAppAppDelegate.m in Sources */,
+				125646B516F8176A00FFBF83 /* MySugarAppMainViewController.m in Sources */,
+				125646B816F8176A00FFBF83 /* MySugarAppFlipsideViewController.m in Sources */,
+				125646C916F817B800FFBF83 /* FMDatabase.m in Sources */,
+				125646CA16F817B800FFBF83 /* FMDatabaseAdditions.m in Sources */,
+				125646CB16F817B800FFBF83 /* FMDatabasePool.m in Sources */,
+				125646CC16F817B800FFBF83 /* FMDatabaseQueue.m in Sources */,
+				125646CD16F817B800FFBF83 /* FMResultSet.m in Sources */,
+				125646D516F81F0000FFBF83 /* MyDataViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		125646A116F8176A00FFBF83 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				125646A216F8176A00FFBF83 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		125646B016F8176A00FFBF83 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				125646B116F8176A00FFBF83 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		125646B916F8176A00FFBF83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		125646BA16F8176A00FFBF83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		125646BC16F8176A00FFBF83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MySugarApp/MySugarApp-Prefix.pch";
+				INFOPLIST_FILE = "MySugarApp/MySugarApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		125646BD16F8176A00FFBF83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MySugarApp/MySugarApp-Prefix.pch";
+				INFOPLIST_FILE = "MySugarApp/MySugarApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1256469016F8176A00FFBF83 /* Build configuration list for PBXProject "MySugarApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				125646B916F8176A00FFBF83 /* Debug */,
+				125646BA16F8176A00FFBF83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		125646BB16F8176A00FFBF83 /* Build configuration list for PBXNativeTarget "MySugarApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				125646BC16F8176A00FFBF83 /* Debug */,
+				125646BD16F8176A00FFBF83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1256468D16F8176A00FFBF83 /* Project object */;
+}
