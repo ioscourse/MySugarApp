@@ -52,7 +52,7 @@
                                     </label>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8q1-Fn-THe">
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="197" id="VfR-CY-4gJ"/>
+                                            <constraint firstAttribute="width" constant="274" id="59X-tq-gjk"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -104,9 +104,9 @@
                                     <constraint firstItem="8q1-Fn-THe" firstAttribute="top" secondItem="arv-BI-o4q" secondAttribute="top" constant="93" id="FGL-sp-zIe"/>
                                     <constraint firstItem="zb4-qq-6V7" firstAttribute="top" secondItem="arv-BI-o4q" secondAttribute="top" constant="59" id="LDR-A6-LQz"/>
                                     <constraint firstItem="8q1-Fn-THe" firstAttribute="leading" secondItem="arv-BI-o4q" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Ldo-Ns-LRS"/>
-                                    <constraint firstItem="zb4-qq-6V7" firstAttribute="centerX" secondItem="8q1-Fn-THe" secondAttribute="centerX" type="default" id="Ut5-gM-Agx"/>
                                     <constraint firstItem="KRD-e8-mf7" firstAttribute="top" secondItem="arv-BI-o4q" secondAttribute="top" constant="20" symbolic="YES" type="default" id="WUW-7g-jTF"/>
                                     <constraint firstItem="3ZT-8v-mrx" firstAttribute="leading" secondItem="arv-BI-o4q" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="dkB-S1-rvp"/>
+                                    <constraint firstItem="zb4-qq-6V7" firstAttribute="leading" secondItem="arv-BI-o4q" secondAttribute="leading" constant="26" id="eWe-Zv-Ftt"/>
                                     <constraint firstAttribute="bottom" secondItem="SyM-za-faM" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="fzd-B8-dv6"/>
                                     <constraint firstAttribute="trailing" secondItem="SyM-za-faM" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="nfA-Po-Lxg"/>
                                     <constraint firstItem="3ZT-8v-mrx" firstAttribute="top" secondItem="arv-BI-o4q" secondAttribute="top" constant="139" id="qbE-cr-Anv"/>
@@ -278,7 +278,6 @@
         <class className="MySugarAppMainViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/MySugarAppMainViewController.h"/>
             <relationships>
-                <relationship kind="action" name="btnBack:"/>
                 <relationship kind="action" name="btnSave:"/>
                 <relationship kind="action" name="doneEditing:"/>
                 <relationship kind="outlet" name="TextViews" candidateClass="UITextView"/>
