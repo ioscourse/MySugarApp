@@ -365,6 +365,7 @@
 				125646BD16F8176A00FFBF83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
